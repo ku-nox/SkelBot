@@ -1,22 +1,24 @@
 {
-  "name": "dbot",
+  "name": "skelbot",
   "version": "1.2.0",
   "description": "A simple discord bot",
-  "main": "./dist/main.js",
+  "main": "./src/main.ts",
   "scripts": {
-    "build": "tsc",
     "start": "npx ts-node -r dotenv/config -r logger ./src/main.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IndigoGamer01/DBot.git"
+    "url": "git+https://github.com/ku-nox/SkelBot.git"
   },
-  "author": "Kronox#3204",
+  "author": "ku-nox",
+  "contributors": [
+    "Wasiur Rahman"
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/IndigoGamer01/DBot/issues"
+    "url": "https://github.com/ku-nox/SkelBot/issues"
   },
-  "homepage": "https://github.com/IndigoGamer01/DBot#readme",
+  "homepage": "https://github.com/ku-nox/SkelBot#readme",
   "dependencies": {
     "discord.js": "^14.9.0",
     "dotenv": "^16.0.1",
@@ -24,7 +26,7 @@
     "logger": "file:lib/logger"
   },
   "engines": {
-    "node": ">=17 <18"
+    "node": ">=20.19.5"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.194"

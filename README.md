@@ -18,7 +18,7 @@ A Discord bot built with TypeScript and Discord.js v14. This bot provides a soli
 
 ## 📋 Prerequisites
 
-- Node.js v17 (< v18)
+- Node.js v20.19.5 or higher
 - npm or yarn
 - Discord Bot Token ([Create one here](https://discord.com/developers/applications))
 
@@ -42,14 +42,14 @@ A Discord bot built with TypeScript and Discord.js v14. This bot provides a soli
    Create a `.env` file in the root directory:
 
    ```env
-   DISCORD_TOKEN=your_bot_token_here
-   CLIENT_ID=your_client_id_here
+   TOKEN=your_bot_token_here
+   PREFIX=your_command_prefix_here
    ```
 
 4. **Build the project**
 
    ```bash
-   npm run build
+   npm install -g ts-node
    ```
 
 5. **Start the bot**
@@ -67,8 +67,7 @@ SkelBot/
 │   ├── commands/       # Command implementations
 │   ├── events/         # Event handlers
 │   └── utils/          # Utility functions
-├── lib/                # Custom libraries
-└── dist/               # Compiled JavaScript (generated)
+└── lib/                # Custom libraries
 ```
 
 ## 🎮 Usage
@@ -109,7 +108,7 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Ku-nox**
+**ku-nox**
 
 - GitHub: [@ku-nox](https://github.com/ku-nox)
 
@@ -124,7 +123,6 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 - [ ] Add database support
 - [ ] Implement music commands
 - [ ] Create web dashboard
-- [ ] Add multi-language support
 
 ## ⚠️ Disclaimer
 
