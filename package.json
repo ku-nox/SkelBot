@@ -1,0 +1,32 @@
+{
+  "name": "dbot",
+  "version": "1.2.0",
+  "description": "A simple discord bot",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npx ts-node -r dotenv/config -r logger ./src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndigoGamer01/DBot.git"
+  },
+  "author": "Kronox#3204",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IndigoGamer01/DBot/issues"
+  },
+  "homepage": "https://github.com/IndigoGamer01/DBot#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.1",
+    "lodash": "^4.17.21",
+    "logger": "file:lib/logger"
+  },
+  "engines": {
+    "node": ">=17 <18"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.194"
+  }
+}
