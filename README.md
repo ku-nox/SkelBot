@@ -111,11 +111,11 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 
 **Ku-nox**
 
-- GitHub: [@IndigoGamer01](https://github.com/IndigoGamer01)
+- GitHub: [@ku-nox](https://github.com/ku-nox)
 
 **Wasiur Rahman**
 
-- GitHub: [@WasiurRahman](https://github.com/Wasiur26)
+- GitHub: [@Wasiur26](https://github.com/Wasiur26)
 
 ## 🔮 Roadmap
 
